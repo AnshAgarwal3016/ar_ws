@@ -1,0 +1,83 @@
+[0.013s] Invoking command in '/home/ansh-agarwal/ar_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ansh-agarwal/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/mavros_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ansh-agarwal/ar_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ansh-agarwal/ar_ws/install/articubot_one
+[0.166s] -- The C compiler identification is GNU 13.3.0
+[0.338s] -- The CXX compiler identification is GNU 13.3.0
+[0.374s] -- Detecting C compiler ABI info
+[0.529s] -- Detecting C compiler ABI info - done
+[0.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.546s] -- Detecting C compile features
+[0.547s] -- Detecting C compile features - done
+[0.561s] -- Detecting CXX compiler ABI info
+[0.688s] -- Detecting CXX compiler ABI info - done
+[0.706s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.707s] -- Detecting CXX compile features
+[0.707s] -- Detecting CXX compile features - done
+[0.722s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.925s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.016s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.121s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.307s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.316s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.316s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.317s] -- Added test 'lint_cmake' to check CMake code style
+[1.319s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.323s] -- Added test 'xmllint' to check XML markup files
+[1.326s] -- Configuring done (1.3s)
+[1.329s] -- Generating done (0.0s)
+[1.332s] -- Build files have been written to: /home/ansh-agarwal/ar_ws/build/articubot_one
+[1.338s] Invoked command in '/home/ansh-agarwal/ar_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ansh-agarwal/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/mavros_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ansh-agarwal/ar_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ansh-agarwal/ar_ws/install/articubot_one
+[1.339s] Invoking command in '/home/ansh-agarwal/ar_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ansh-agarwal/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/mavros_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ansh-agarwal/ar_ws/build/articubot_one -- -j4 -l4
+[1.380s] Invoked command in '/home/ansh-agarwal/ar_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ansh-agarwal/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/mavros_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ansh-agarwal/ar_ws/build/articubot_one -- -j4 -l4
+[1.390s] Invoking command in '/home/ansh-agarwal/ar_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ansh-agarwal/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/mavros_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ansh-agarwal/ar_ws/build/articubot_one
+[1.399s] -- Install configuration: ""
+[1.399s] -- Execute custom install script
+[1.399s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[1.410s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[1.421s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.436s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.451s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[1.469s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/gz_bridge.yaml
+[1.487s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[1.501s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[1.517s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[1.531s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[1.541s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.550s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[1.560s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[1.573s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.582s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[1.591s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[1.601s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/face.xacro
+[1.611s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.621s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.630s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.640s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.649s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.658s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.667s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[1.677s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[1.686s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[1.695s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[1.708s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.724s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[1.738s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[1.751s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[1.761s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[1.774s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.790s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.802s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.816s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.829s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.840s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.849s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.859s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[1.868s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.878s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[1.887s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[1.896s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.907s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.917s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/package.dsv
+[1.927s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.936s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.946s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.957s] -- Symlinking: /home/ansh-agarwal/ar_ws/install/articubot_one/share/articubot_one/package.xml
+[1.969s] Invoked command in '/home/ansh-agarwal/ar_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ansh-agarwal/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/my_robotic_controller:/home/ansh-agarwal/ros2_ws/install/mavros_launch:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ansh-agarwal/ar_ws/build/articubot_one
